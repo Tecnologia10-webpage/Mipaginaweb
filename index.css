@@ -1,0 +1,329 @@
+
+/* estilo general de la pagina */
+
+body {
+    background-image: url("ajedrez4.jpeg");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 1360px 1580px;
+    height: 1800px;
+}
+
+/* tablas */
+
+table, th, td {
+    font-family: 'Franklin Gothic';
+    border: 1px solid black;
+    background-color: rgba(0, 238, 255, 0.63);
+    width: 528px;
+}
+
+/* listas */
+
+ol, ul, li {
+    font-size: large;
+    font-family: 'Franklin Gothic';
+}
+
+/* texto (general) */
+
+p {
+    font-family: Helvetica;
+    line-height: 130%;
+}
+
+/* titulos */
+
+.agrupaciondetitulos {
+    background-color: rgb(167, 160, 158);
+    text-shadow: 3px 5px 5px blue;
+    padding: 9px 12px 9px;
+    font-size: larger;
+    border-style: solid;
+    border-color: blue;
+    border-radius: 5px;
+    border-width: 3px;
+}
+
+.casigrande {
+    font-size: 180%;
+}
+
+h2, h3, h4 {
+    font-family: sans-serif;
+}
+
+/* estilo Titulo principal */
+
+#tituloprincipal {
+    font-size: 300%;
+    background-color: rgba(11, 175, 167, 0.712);
+    background-image: url("ajedrez3.png");
+    background-position: center top;
+    background-size: 720px 190px;
+    background-repeat: no-repeat;
+    height: 180px;
+    width: 1293px;
+    line-height: 250%;
+    text-align: center;
+    font-family: monospace;
+    border-style: solid;
+    border-color: rgb(45, 255, 220);
+    border-width: 5px;
+    margin:0px;
+    position:absolute;
+    top: 0px;
+    left: 0px;
+}
+
+/* Indice */
+
+#indice-principal {
+    padding: 25px 25px 25px;
+    border-style: outset;
+    border-color: aqua;
+    border-width: 5px;
+    background-color: rgba(13, 27, 25, 0.884);
+    width: 1243px;
+    position: absolute;
+    top: 188px;
+    left: 0px;
+}
+
+#id-de-indice {
+    color: rgb(255, 255, 255);
+    margin: 15px 0px 15px;
+}
+
+#lista-no-ordenada1 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.indice-principal2 {
+    float: left;
+    font-size: 17px;
+}
+
+li a {
+    display: block;
+    padding: 8px;
+}
+
+/* Section1, Articulo 1 */
+
+#primer_articulo {
+    margin: 15px;
+    width: 1065px;
+    position:absolute;
+    top: 370px;
+}
+
+article.article {
+    background-color: black;
+    border-color: rgb(218, 218, 218);
+    border-style: outset;
+    border-width: 3px;
+    padding: 25px;
+}
+
+#primertexto {
+    background-color: rgba(0, 255, 255, 0.822);
+    margin: 0px 0px 0px;
+}
+
+#titulo1 {
+    background-color: rgb(255, 255, 255);
+    margin: 20px 0px 30px;
+}
+
+
+/* Cuerpo general de la pagina: Origenes del Ajedrez, 
+Los campeones mundiales, Paginas web para jugar ajedrez */
+
+#cuerpo_principal {
+    position:absolute;
+    top: 600px;
+}
+
+/* Section 2, generalidades */
+
+section div {
+    margin: 15px;
+}
+
+/* Section 2, division 1 */
+
+.division-article {
+    width: 980px;
+    border-style: ridge;
+    border-radius: 7px;
+    border-width: 6px;
+    border-color: rgba(255, 255, 255, 0.801);
+}
+
+.article1 {
+    padding: 5px 10px 5px 10px;
+    background-color: rgba(15, 206, 196, 0.527);
+}
+
+.title-article {
+    background-color: rgb(167, 160, 158);
+    text-shadow: 3px 5px 5px blue;
+    padding: 9px 12px 9px;
+    font-size: larger;
+    border-style: solid;
+    border-color: rgb(18, 39, 83);
+    border-radius: 5px;
+    border-width: 3px;
+}
+
+.text-article {
+    margin: 10px;
+    padding: 7px;
+    background-color: rgba(85, 173, 255, 0.664);
+    color: rgb(44, 42, 42);
+}
+
+/* Section 2, division 2 (tabla) */
+
+#ajedrez-online {
+    background-color: rgba(255, 255, 255, 0.829);
+    width: 540px;
+    padding: 15px;
+    border-style: outset;
+    border-color: rgb(184, 176, 176);
+    border-width: 5px;
+}
+
+#titulo4 {
+    background-color: rgba(0, 238, 255, 0.63);
+    color: rgb(39, 38, 38);
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding: 9px 12px 9px;
+    margin: 10px 0px 20px 0px;
+    border-style: solid;
+    border-color: rgba(16, 16, 83, 0.678);
+    border-width: 3px;
+    width: 498px;
+}
+
+/* aside */
+
+#division-aside {
+    background-color: rgba(0, 192, 102, 0.778);
+    height: 634px;
+    width: 180px;
+    margin: 0px;
+    padding: 5px;
+    position:fixed;
+    top: 0px;
+    right:0px;
+    z-index: 2;
+}
+
+#computer-aside {
+    width: 180px;
+}
+
+.lista {
+    color: rgb(224, 224, 224);
+    font-family: cursive;
+    font-size: 10px;
+}
+
+#actualidad-aside {
+    width: 180px;
+}
+
+.text-aside {
+    padding: 3px;
+    margin: 10px 0px 5px;
+    font-family: cursive;
+    font-size: 11.8px;
+    text-align: justify;
+    color: black;
+}
+
+.titulo5 {
+    padding: 3px;
+    margin: 10px 0px 5px;
+    line-height: 140%;
+    text-align: center;
+    font-family: cursive;
+    font-size: 17px;
+    background-color: aquamarine;
+    border-radius: 5px;
+}
+
+/* footer */
+
+#titulo6 {
+    position: absolute;
+    top: 1500px;
+    left: 0px;
+    width: 1263px;
+    height: 280px;
+    padding: 20px;
+    background-color: rgb(0, 0, 0);
+    z-index: 1;
+}
+
+#division-footer {
+    width: 700px;
+}
+
+#colorclaropiedepagina-titulo {
+    color: aliceblue;
+}
+
+.colorclaropiedepagina {
+    color: antiquewhite;
+    float: left;
+    padding: 10px;
+}
+
+#imagen-mia {
+    width: 150px;
+    position: absolute;
+    bottom: 40px;
+    right: 230px;
+}
+
+/* Pseudo clases */
+
+a:hover {
+    background-color: white;
+}
+a:active {
+    background-color: black;
+}
+
+/* componente insertado de bootstrap */
+
+.btn {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 35px;
+    width: 150px;
+    margin: 10px;
+    padding: 5px;
+    border-color: black;
+    border-style: solid;
+    border-width: 3px;
+}
+
+.badge {
+    background-color: rgba(56, 56, 250, 0.884);
+    color: black;
+    font-weight: 700;
+    border-radius: 5px;
+    padding: 4px;
+}
+
+/* Este es un comentario de prueba y no va a aparecer en mi pagina web */
